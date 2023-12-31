@@ -1,0 +1,18 @@
+{
+  "name": "typedoc-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typedoc-html": "npx typedoc --entryPoints index.ts --out docs-html",
+    "typedoc-md": "npx typedoc --entryPoints index.ts --out docs-md --plugin typedoc-plugin-markdown",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typedoc": "^0.25.2",
+    "typedoc-plugin-markdown": "^3.17.1",
+    "typescript": "^5.2.2"
+  }
+}
